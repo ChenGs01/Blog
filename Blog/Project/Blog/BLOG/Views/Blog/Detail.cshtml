@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/BlogLayout.cshtml";
+}
+<script src="~/js/BlogDetail.js"></script>
+<style>
+    .blog_title {
+        font-size: 22px;
+        font-weight: 400;
+        padding: 20px 0 10px 0;
+        color: #38485A;
+        text-align: center
+    }
+    .blog_author {
+        width: 100%;
+        color: #999999;
+        line-height: 18px;
+    }
+
+    .blog_content {
+        line-height: 24px;
+        font-size: 14px;
+        color: #38485A;
+    }
+</style>
+<h3 style="text-align:left;font-size:15px" id="names"></h3>
+<hr />
+<h3 class="blog_title" id="titles"></h3>
+<p class="blog_author" id="infos"></p>
+<br />
+<div id="contents" class="blog_content">
+
+</div>

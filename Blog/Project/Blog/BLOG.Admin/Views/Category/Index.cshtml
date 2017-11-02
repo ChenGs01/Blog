@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .aclass {
+        color: blue;
+        text-decoration: underline;
+    }
+</style>
+<link rel="stylesheet" href="~/css/main.css">
+<script src="~/lib/layer/layer.js"></script>
+<script>
+    $(function () {
+        GetAll();
+        $("#Add").click(function () {
+            Add();
+        });
+    });
+    function Edit(id, name) {
+        layer.ready(function () {
+            layer.open({
+                type: 2,
+                title: '修改',
+                maxmin: true,
+                area: ['600px', '300px'],
+                content: '../Category/Form?id=' + id + '&name=' + name,
+                end: function () {
+                    GetAll();
+                }
+            });
+        });
+    }
+    function Add()
+    {
+        layer.ready(function () {
+            layer.open({
+                type: 2,
+                title: '新增',
+                maxmin: true,
+                area: ['600px', '300px'],
+                content: '../Category/Form',
+                end: function () {
+                    GetAll();
+                }
+            });
+        });   
+    }
+    function GetAll() {
+        $.ajax({
+            url: "../Category/GetAll",
+            dataType: "json",
+            async: false,
+            type: "post",
+            success: function (data) {
+                $("#tbodys").empty();
+                $.each(data, function (idx, obj) {
+                    var f = parseInt(idx) + 1;
+                    $("#tbodys").append("<tr class=\"tr\"><td>" + f + "</td><td>" + obj.name + "</td><td><a class=\"aclass\" onclick=\"Edit(" + obj.id + ",'"+obj.name+"')\">修改</a></tr >");
+                });
+            }
+        });
+    }
+</script>
+<div id="table" class="mt10">
+    <div class="box span10 oh">
+        <table class="list_table">
+            <caption><a class="aclass" id="Add" style="float:left;font-size:18px">新增</a></caption>
+            <thead>
+                <tr class="tr">
+                    <th>序号</th>
+                    <th>名称</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody id="tbodys"></tbody>
+
+        </table>
+    </div>
+</div>

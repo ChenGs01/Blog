@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .aclass {
+        color: blue;
+        text-decoration: underline;
+    }
+</style>
+<link rel="stylesheet" href="~/css/main.css">
+<script>
+    var cateid = "";
+    $(function () {
+        cateid = GetUrlParam("id");
+        GetAll();
+    });
+    function Disable(id, state) {
+        if (confirm("确认是否修改该用户使用状态?")) {
+            var key = id + ',' + state;
+            $.ajax({
+                url: "../Users/Disable",
+                data: { "keyValue": key },
+                dataType: "text",
+                async: false,
+                type: "post",
+                success: function (data) {
+                    alert(data);
+                    GetAll();
+                }
+            });
+        }
+    }
+    function GetAll() {
+        $.ajax({
+            url: "../Users/GetAll",
+            dataType: "json",
+            async: false,
+            type: "post",
+            success: function (data) {
+                $("#tbodys").empty();
+                var state = "";
+                $.each(data, function (idx, obj) {
+                    var f = parseInt(idx) + 1;
+                    state = obj.state == false ? "禁用" : "启用";
+                    $("#tbodys").append("<tr class=\"tr\"><td>" + f + "</td><td>" + obj.username + "</td><td>" + obj.password + "</td><td>" + obj.name + "</td><td>" + obj.email + "</td><td>" + state + "</td><td><a class=\"aclass\" onclick=\"Disable(" + obj.id + ",'" + state + "')\">是否启用</a></tr >");
+                });
+            }
+        });
+    }
+</script>
+<div id="table" class="mt10">
+    <div class="box span10 oh">
+        <table class="list_table">
+            <thead>
+                <tr class="tr">
+                    <th>序号</th>
+                    <th>用户名称</th>
+                    <th>密码</th>
+                    <th>姓名</th>
+                    <th>邮箱</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody id="tbodys"></tbody>
+
+        </table>
+    </div>
+</div>

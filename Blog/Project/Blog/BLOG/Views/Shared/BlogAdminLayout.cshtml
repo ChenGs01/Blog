@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/common.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <script type="text/javascript" src="~/js/jquery.min.js"></script>
+    <script type="text/javascript" src="~/js/jquery.SuperSlide.js"></script>
+    <script type="text/javascript" src="~/js/tool.js"></script>
+    <style>
+        li, a {
+            cursor: pointer;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        $(function () {
+            if (sessionStorage["UserName"] == 'null' || sessionStorage["UserName"] == undefined || sessionStorage["UserName"] == 'undefined') {
+                location.href = "../Blog/Index";
+            }
+            $("#userInfo").html("当前用户：" + sessionStorage["UserName"] + "");
+            loadCateMenu();
+        });
+        function loadCateMenu() {
+            $.ajax({
+                url: "../BlogAdmin/GetCategories",
+                dataType: "json",
+                async: true,
+                type: "post",
+                success: function (data) {
+                    var res = eval(data);
+                    $.each(res, function (idx, obj) {
+                        $("#cateMenu").append("<li ><a href='../BlogAdmin/BlogManage?cateid=" + obj.id + "&catename=" + obj.name + "'>" + obj.name + "</a></li>");
+                    });
+                }
+            });
+        }
+        function logOut() {
+            sessionStorage["UserName"] = null;
+            location.href = "../BlogAdmin/Login"
+        }
+    </script>
+    <title>CH博客管理端</title>
+</head>
+<body>
+    <div class="top">
+        <div style="text-align:left;font-size:20px" id="userInfo"></div>
+        <div id="top_t">
+            <div id="photo_info" class="fr" style="text-align: right;color:azure;font-size:18px">
+                <a href="../Blog/Index">返回个人首页</a>
+                &nbsp;
+                <a href="../Home/Index">CH博客</a>
+                &nbsp;
+                <a onclick="logOut()">注销</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+    </div>
+    <div class="side">
+        <div class="sideMenu" style="margin: 0 auto">
+            <h3>操作</h3>
+            <ul style="display: block;">
+                <li><a href="../BlogAdmin/Edit">写博客</a></li>
+            </ul>
+            <h3>博客管理</h3>
+            <ul id="cateMenu" style="display: block;"></ul>
+        </div>
+    </div>
+    <div class="main">
+        @RenderBody()
+    </div>
+</body>
+</html>
+

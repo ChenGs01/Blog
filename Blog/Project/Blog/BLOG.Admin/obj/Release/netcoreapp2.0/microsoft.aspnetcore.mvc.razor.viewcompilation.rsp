@@ -1,0 +1,15 @@
+I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=BLOG.Admins
+--content-root=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\Admin\Login.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\Article\Index.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\Category\Form.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\Category\Index.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\Home\Index.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\Shared\Error.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\Shared\_Layout.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\Users\Index.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\_ViewImports.cshtml
+--file=I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Admin\Views\_ViewStart.cshtml

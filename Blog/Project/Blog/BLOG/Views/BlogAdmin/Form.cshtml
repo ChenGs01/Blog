@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Form";
+    Layout = null;
+}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/main.css">
+    <link rel="stylesheet" href="~/css/common.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/assets/design/css/trumbowyg.css">
+    <script type="text/javascript" src="~/js/jquery.min.js"></script>
+    <script src="~/assets/trumbowyg.js"></script>
+    <script src="~/js/prototype.js"></script>
+    <script src="~/assets/plugins/base64/trumbowyg.base64.js"></script>
+    <script src="~/js/tool.js"></script>
+    <script type="text/javascript" src="~/js/BlogAdminForm.js"></script>
+    <title>修改</title>
+</head>
+<body>
+    <div class="box_border" style="height:1000px">
+        <div class="box_center">
+            <form>
+                <table class="form_table pt15 pb15">
+                    <tr>
+                        <td class="td_right" style="width:100px;text-align:left"><b>文章标题</b>：</td>
+                        <td>
+                            <input type="text" id="title" name="title" class="input-text lh30" style="width:350px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_right" style="width:100px;text-align:left"><b>文章类别</b>：</td>
+                        <td style="width:800px">
+                            <div class="select_border">
+                                <div class="select_containers ">
+                                    <select id="cate" name="cate" class="select" style="width:150px"></select>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_right" style="width:100px;text-align:left"><b>文章内容</b>：<br /><font style="color:blue">(支持在文本框内上传图片,点击图片标签进行上传,并且文本框内的第一张图片将作为本条记录的展示图片.)</font></td>
+                        <td style="width:815px">
+                            <div onmousedown="show_element(event)" style="clear: both; width: 750px; height: 400px" id="customized-buttonpane" name="Editors" class="editor"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_right">&nbsp;</td>
+                        <td style="text-align:center">
+                            <input type="button" id="submits" name="button" class="btn btn82 btn_save2" value="保存" />
+                            <input type="reset" name="button" class="btn btn82 btn_res" value="重置" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="odiv" style="display: none; position: absolute; z-index: 100;">
+        <img src="~/assets/pic/sx.png" title="缩小" border="0" alt="缩小" onclick="sub(-1);" />
+        <img src="~/assets/pic/fd.png" title="放大" border="0" alt="放大" onclick="sub(1)" />
+        <img src="~/assets/pic/cz.png" title="重置" border="0" alt="重置" onclick="sub(0)" />
+        <img src="~/assets/pic/sc.png" title="删除" border="0" alt="删除" onclick="del();odiv.style.display='none';" />
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script>
+    $(function () {
+        if ($("#admin").attr("title") != undefined && $("#admin").attr("title") != 'undefined')
+            sessionStorage["adminName"] = $("#admin").attr("title");
+        if (sessionStorage["adminName"] == undefined || sessionStorage["adminName"] == 'undefined')
+            location.href = '../Admin/Login';
+    });
+</script>
+<h2 id="admin" title="@TempData["adminName"]">欢迎使用! </h2>
+

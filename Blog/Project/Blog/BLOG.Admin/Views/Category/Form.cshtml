@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Form";
+    Layout = null;
+}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/main.css">
+    <link rel="stylesheet" href="~/css/common.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <script type="text/javascript" src="~/js/jquery.min.js"></script>
+    <script src="~/js/tool.js"></script>
+    <title>编辑</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var id = "", name = "";
+        $(function () {
+            id = GetUrlParam("id");
+            if (id != '' && id != null) {
+                name = decodeURI(GetUrlParam("name"));
+                $("#Name").val(name);
+            }
+            $("#submits").click(function () {
+                submit();
+            });
+        });
+        function submit() {
+            $.ajax({
+                url: "../Category/Edit",
+                dataType: "text",
+                async: false,
+                data: { "Name": $("#Name").val(), "keyValue": id },
+                type: "post",
+                success: function (data) {
+                    alert(data);
+                }
+            });
+        }
+    </script>
+    <div class="box_border" style="height:1000px">
+        <div class="box_center">
+            <form>
+                <table class="form_table pt15 pb15">
+                    <tr>
+                        <td class="td_right" style="width:100px;text-align:left"><b>分类名称</b>：</td>
+                        <td>
+                            <input type="text" id="Name" name="Name" class="input-text lh30" style="width:350px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_right">&nbsp;</td>
+                        <td style="text-align:center">
+                            <input type="button" id="submits" name="button" class="btn btn82 btn_save2" value="保存" />
+                            <input type="reset" name="button" class="btn btn82 btn_res" value="重置" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

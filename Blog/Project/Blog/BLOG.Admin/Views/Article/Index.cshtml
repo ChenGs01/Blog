@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .aclass {
+        color: blue;
+        text-decoration: underline;
+    }
+</style>
+<link rel="stylesheet" href="~/css/main.css">
+<script>
+    var cateid = "";
+    $(function () {
+        cateid = GetUrlParam("id");
+        GetAll();
+    });
+    function Disable(id, state) {
+        if (confirm("确认是否修改该博客状态?")) {
+            var key = id + ',' + state;
+            $.ajax({
+                url: "../Article/Disable",
+                data: { "keyValue": key },
+                dataType: "text",
+                async: false,
+                type: "post",
+                success: function (data) {
+                    alert(data);
+                    GetAll();
+                }
+            });
+        }
+    }
+    function IsFirst(id, is) {
+        if (confirm("确认是否修改该博客推荐状态?")) {
+            var key = id + ',' + is;
+            $.ajax({
+                url: "../Article/IsFirst",
+                data: { "keyValue": key },
+                dataType: "text",
+                async: false,
+                type: "post",
+                success: function (data) {
+                    alert(data);
+                    GetAll();
+                }
+            });
+        }
+    }
+    function GetAll() {
+        $.ajax({
+            url: "../Article/GetAll",
+            data: { "keyValue": cateid },
+            dataType: "json",
+            async: false,
+            type: "post",
+            success: function (data) {
+                $("#tbodys").empty();
+                var state = "", isfirst = "";
+                $.each(data, function (idx, obj) {
+                    var f = parseInt(idx) + 1;
+                    state = obj.state == false ? "禁用" : "启用";
+                    isfirst = obj.isfirst == false ? "否" : "是";
+                    $("#tbodys").append("<tr class=\"tr\"><td>" + f + "</td><td>" + obj.cateName + "</td><td>" + obj.title + "</td><td>" + obj.date + "</td><td>" + obj.userName + "</td><td>" + obj.browamount + "</td><td>" + state + "</td><td>" + isfirst + "</td><td><a class=\"aclass\" onclick=\"Disable(" + obj.id + ",'" + state + "')\">是否启用</a>|<a class=\"aclass\" onclick=\"IsFirst(" + obj.id + ",'" + isfirst + "')\">是否推荐</a></tr >");
+                });
+            }
+        });
+    }
+</script>
+<div id="table" class="mt10">
+    <div class="box span10 oh">
+        <table class="list_table">
+            <thead>
+                <tr class="tr">
+                    <th>序号</th>
+                    <th>分类名称</th>
+                    <th>标题</th>
+                    <th>日期</th>
+                    <th>用户</th>
+                    <th>浏览量</th>
+                    <th>是否推荐</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody id="tbodys"></tbody>
+
+        </table>
+    </div>
+</div>

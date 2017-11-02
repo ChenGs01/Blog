@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/BlogLayout.cshtml";
+}
+<script src="~/js/Article.js"></script>
+<script src="~/js/BlogIndex.js"></script>
+<style>
+    .aclass {
+        color: blue;
+        text-decoration: underline;
+    }
+</style>
+<h2 title="@TempData["UserName"]" id="tabs"></h2>
+<br />
+<div style="margin-bottom:10px">
+    <div id="blogList">
+
+    </div>
+    <div id="page" style=" font-size:14px;cursor:pointer;text-align:center;font-stretch:expanded;color:orange;" class="pager">
+        <br />
+        <br />
+        <label id="pageInfo" style="color:black">共20条数据,每页条10数据,共2页,当前第1页</label>
+        <a class="aclass" onclick="TopPage()">上一页</a>
+        <a class="aclass" onclick="NextPage()">下一页</a>
+    </div>
+</div>
+
