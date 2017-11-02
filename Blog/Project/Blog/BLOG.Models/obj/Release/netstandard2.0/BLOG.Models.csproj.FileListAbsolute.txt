@@ -25,3 +25,12 @@ I:\Users\97586\Desktop\GitBlog\Blog\Project\Blog\BLOG.Models\obj\Release\netstan
 I:\Users\97586\Desktop\GitBlog\Blog\Project\Blog\BLOG.Models\obj\Release\netstandard2.0\BLOG.Models.AssemblyInfo.cs
 I:\Users\97586\Desktop\GitBlog\Blog\Project\Blog\BLOG.Models\obj\Release\netstandard2.0\BLOG.Models.dll
 I:\Users\97586\Desktop\GitBlog\Blog\Project\Blog\BLOG.Models\obj\Release\netstandard2.0\BLOG.Models.pdb
+I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\BLOG.Models\bin\Release\netstandard2.0\BLOG.Models.deps.json
+I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\BLOG.Models\bin\Release\netstandard2.0\BLOG.Models.dll
+I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\BLOG.Models\bin\Release\netstandard2.0\BLOG.Models.pdb
+I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\BLOG.Models\obj\Release\netstandard2.0\BLOG.Models.csprojResolveAssemblyReference.cache
+I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\BLOG.Models\obj\Release\netstandard2.0\BLOG.Models.csproj.CoreCompileInputs.cache
+I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\BLOG.Models\obj\Release\netstandard2.0\BLOG.Models.AssemblyInfoInputs.cache
+I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\BLOG.Models\obj\Release\netstandard2.0\BLOG.Models.AssemblyInfo.cs
+I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\BLOG.Models\obj\Release\netstandard2.0\BLOG.Models.dll
+I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\BLOG.Models\obj\Release\netstandard2.0\BLOG.Models.pdb

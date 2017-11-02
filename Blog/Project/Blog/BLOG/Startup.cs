@@ -12,11 +12,7 @@ namespace BLOG
 {
     public class Startup
     {
-<<<<<<< HEAD
-       public Startup(IConfiguration configuration)
-=======
         public Startup(IConfiguration configuration)
->>>>>>> 1 commit
         {
             Configuration = configuration;
         }

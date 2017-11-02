@@ -5358,11 +5358,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.BLL\\BLOG.BLL.csproj",
+      "projectUniqueName": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.BLL\\BLOG.BLL.csproj",
       "projectName": "BLOG.BLL",
-      "projectPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.BLL\\BLOG.BLL.csproj",
+      "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.BLL\\BLOG.BLL.csproj",
       "packagesPath": "I:\\Users\\97586\\.nuget\\packages\\",
-      "outputPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.BLL\\obj\\",
+      "outputPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "I:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5381,11 +5381,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj": {
-              "projectPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj"
+            "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj": {
+              "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj"
             },
-            "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj": {
-              "projectPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj"
+            "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj": {
+              "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj"
             }
           }
         }

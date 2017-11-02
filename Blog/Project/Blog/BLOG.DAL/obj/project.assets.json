@@ -5339,11 +5339,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj",
+      "projectUniqueName": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj",
       "projectName": "BLOG.DAL",
-      "projectPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj",
+      "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj",
       "packagesPath": "I:\\Users\\97586\\.nuget\\packages\\",
-      "outputPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.DAL\\obj\\",
+      "outputPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "I:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5362,11 +5362,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj": {
-              "projectPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj"
+            "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj": {
+              "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj"
             },
-            "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj": {
-              "projectPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj"
+            "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj": {
+              "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj"
             }
           }
         }

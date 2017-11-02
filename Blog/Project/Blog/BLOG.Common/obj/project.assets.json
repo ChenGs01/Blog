@@ -3574,11 +3574,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj",
+      "projectUniqueName": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj",
       "projectName": "BLOG.Common",
-      "projectPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj",
+      "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj",
       "packagesPath": "I:\\Users\\97586\\.nuget\\packages\\",
-      "outputPath": "I:\\Users\\97586\\Desktop\\GitBlog\\Blog\\Project\\Blog\\Blog.Common\\obj\\",
+      "outputPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "I:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
