@@ -27,7 +27,6 @@ namespace BLOG.Admins
             services.AddDbContext<BLOGContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("SqlConString")));
 
-
             services.AddMvc();
             services.AddScoped(typeof(IBaseDAL<>), typeof(BaseDAL<>));
             services.AddTransient<IAdminService, AdminService>();

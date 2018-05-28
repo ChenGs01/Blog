@@ -24,3 +24,11 @@ I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Models\obj\Debug\netstandard2.0\BL
 I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Models\obj\Debug\netstandard2.0\BLOG.Models.AssemblyInfo.cs
 I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Models\obj\Debug\netstandard2.0\BLOG.Models.dll
 I:\Users\97586\Desktop\Blog\Project\Blog\BLOG.Models\obj\Debug\netstandard2.0\BLOG.Models.pdb
+C:\Users\CH\Desktop\Blog\BLOG.Models\bin\Debug\netstandard2.0\BLOG.Models.deps.json
+C:\Users\CH\Desktop\Blog\BLOG.Models\bin\Debug\netstandard2.0\BLOG.Models.dll
+C:\Users\CH\Desktop\Blog\BLOG.Models\bin\Debug\netstandard2.0\BLOG.Models.pdb
+C:\Users\CH\Desktop\Blog\BLOG.Models\obj\Debug\netstandard2.0\BLOG.Models.csproj.CoreCompileInputs.cache
+C:\Users\CH\Desktop\Blog\BLOG.Models\obj\Debug\netstandard2.0\BLOG.Models.AssemblyInfoInputs.cache
+C:\Users\CH\Desktop\Blog\BLOG.Models\obj\Debug\netstandard2.0\BLOG.Models.AssemblyInfo.cs
+C:\Users\CH\Desktop\Blog\BLOG.Models\obj\Debug\netstandard2.0\BLOG.Models.dll
+C:\Users\CH\Desktop\Blog\BLOG.Models\obj\Debug\netstandard2.0\BLOG.Models.pdb

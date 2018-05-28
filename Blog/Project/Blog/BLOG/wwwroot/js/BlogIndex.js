@@ -10,9 +10,13 @@ $(function () {
             $("#user").html("<a style=\"cursor: pointer\" onclick='myBlog()' >[" + sessionStorage["UserName"] + "</a>&nbsp;&nbsp;<a style=\"cursor: pointer\" onclick='logOut()'>退出]</a>");
         }
     }
-    else if (sessionStorage["UserName"] != 'null' && sessionStorage["UserName"] != undefined && sessionStorage["UserName"] != 'undefined') {
+    var b = sessionStorage["UserName"];
+    if (sessionStorage["UserName"] != 'null') {
         owner = sessionStorage["UserName"];
         $("#user").html("<a style=\"cursor: pointer\" onclick='myBlog()' >[" + sessionStorage["UserName"] + "</a>&nbsp;&nbsp;<a style=\"cursor: pointer\" onclick='logOut()'>退出]</a>");
+    }
+    else {
+        Location.href = "../BlogAdmin/Login";
     }
     loadCategories();
     $("#tabs").find("a").get(0).click();

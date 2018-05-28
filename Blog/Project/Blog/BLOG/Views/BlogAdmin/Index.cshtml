@@ -6,10 +6,10 @@
 <script>
     $(function () {
         if (sessionStorage["UserName"] == 'null' || sessionStorage["UserName"] == undefined && sessionStorage["UserName"] != 'undefined') {
-                location.href = "../BlogAdmin/Login";
-            }
+            location.href = "../BlogAdmin/Login";
+        }
         $("#index").html("欢迎使用！" + sessionStorage["UserName"] + "");
     });
 </script>
 <br />
-<h2 id="index"  style="font-size:19px">欢迎使用！</h2>
+<h2 id="index" style="font-size:19px">欢迎使用！</h2>

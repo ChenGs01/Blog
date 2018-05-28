@@ -50,3 +50,17 @@ I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\Blog.DAL\obj\Re
 I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.AssemblyInfo.cs
 I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.dll
 I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.pdb
+C:\Users\CH\Desktop\Blog\Blog.DAL\bin\Release\netcoreapp2.0\BLOG.DAL.deps.json
+C:\Users\CH\Desktop\Blog\Blog.DAL\bin\Release\netcoreapp2.0\BLOG.DAL.dll
+C:\Users\CH\Desktop\Blog\Blog.DAL\bin\Release\netcoreapp2.0\BLOG.DAL.pdb
+C:\Users\CH\Desktop\Blog\Blog.DAL\bin\Release\netcoreapp2.0\BLOG.Common.dll
+C:\Users\CH\Desktop\Blog\Blog.DAL\bin\Release\netcoreapp2.0\BLOG.Models.dll
+C:\Users\CH\Desktop\Blog\Blog.DAL\bin\Release\netcoreapp2.0\BLOG.Common.pdb
+C:\Users\CH\Desktop\Blog\Blog.DAL\bin\Release\netcoreapp2.0\BLOG.Models.pdb
+C:\Users\CH\Desktop\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.csprojResolveAssemblyReference.cache
+C:\Users\CH\Desktop\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.csproj.CoreCompileInputs.cache
+C:\Users\CH\Desktop\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.AssemblyInfoInputs.cache
+C:\Users\CH\Desktop\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.AssemblyInfo.cs
+C:\Users\CH\Desktop\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.csproj.CopyComplete
+C:\Users\CH\Desktop\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.dll
+C:\Users\CH\Desktop\Blog\Blog.DAL\obj\Release\netcoreapp2.0\BLOG.DAL.pdb

@@ -34,6 +34,10 @@ namespace BLOG.Controllers
         {
             return View();
         }
+        public IActionResult Friends()
+        {
+            return View();
+        }
         /// <summary>
         /// 获取分类
         /// </summary>

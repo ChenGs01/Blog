@@ -34,3 +34,12 @@ I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\Blog.Common\obj
 I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\Blog.Common\obj\Release\netcoreapp2.0\BLOG.Common.AssemblyInfo.cs
 I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\Blog.Common\obj\Release\netcoreapp2.0\BLOG.Common.dll
 I:\Users\97586\Desktop\Blog-master\Blog-master\Blog\Project\Blog\Blog.Common\obj\Release\netcoreapp2.0\BLOG.Common.pdb
+C:\Users\CH\Desktop\Blog\Blog.Common\bin\Release\netcoreapp2.0\BLOG.Common.deps.json
+C:\Users\CH\Desktop\Blog\Blog.Common\bin\Release\netcoreapp2.0\BLOG.Common.dll
+C:\Users\CH\Desktop\Blog\Blog.Common\bin\Release\netcoreapp2.0\BLOG.Common.pdb
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Release\netcoreapp2.0\BLOG.Common.csproj.CoreCompileInputs.cache
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Release\netcoreapp2.0\BLOG.Common.AssemblyInfoInputs.cache
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Release\netcoreapp2.0\BLOG.Common.AssemblyInfo.cs
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Release\netcoreapp2.0\BLOG.Common.dll
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Release\netcoreapp2.0\BLOG.Common.pdb
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Release\netcoreapp2.0\BLOG.Common.csprojResolveAssemblyReference.cache

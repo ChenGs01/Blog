@@ -13,7 +13,5 @@ namespace BLOG.BLL
         {
             BaseDal = _baseDal;
         }
-
-
     }
 }

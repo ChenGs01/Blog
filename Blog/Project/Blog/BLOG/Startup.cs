@@ -25,7 +25,6 @@ namespace BLOG
             services.AddDbContext<BLOGContext>(options =>
               options.UseSqlServer(Configuration.GetConnectionString("SqlConString")));
 
-
             services.AddMvc();
             services.AddSession();
             services.AddScoped(typeof(IBaseDAL<>), typeof(BaseDAL<>));
@@ -33,6 +32,7 @@ namespace BLOG
             services.AddTransient<IArticlesService, ArticlesService>();
             services.AddTransient<ICategorysService, CategorysService>();
             services.AddTransient<IUsersService, UsersService>();
+            services.AddTransient<IMessageService, MessageService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

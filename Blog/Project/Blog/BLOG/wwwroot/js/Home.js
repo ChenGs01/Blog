@@ -26,8 +26,8 @@ function logOut() {
     location.reload();
 }
 function myBlog() {
-    sessionStorage["owner"] = null;
-    if (sessionStorage["UserName"] == 'null' || sessionStorage["UserName"] == undefined || sessionStorage["UserName"] == 'undefined')
+    //sessionStorage["owner"] = null;
+    if (sessionStorage["UserName"] == 'null' )
         location.href = "../BlogAdmin/Login";
     else 
         location.href = "../Blog/Index";

@@ -5349,43 +5349,40 @@
     ]
   },
   "packageFolders": {
-    "I:\\Users\\97586\\.nuget\\packages\\": {},
-    "I:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\CH\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.BLL\\BLOG.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\CH\\Desktop\\Blog\\Blog.BLL\\BLOG.BLL.csproj",
       "projectName": "BLOG.BLL",
-      "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.BLL\\BLOG.BLL.csproj",
-      "packagesPath": "I:\\Users\\97586\\.nuget\\packages\\",
-      "outputPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.BLL\\obj\\",
+      "projectPath": "C:\\Users\\CH\\Desktop\\Blog\\Blog.BLL\\BLOG.BLL.csproj",
+      "packagesPath": "C:\\Users\\CH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CH\\Desktop\\Blog\\Blog.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "I:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "I:\\Users\\97586\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "I:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\CH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "I:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj": {
-              "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\BLOG.Models\\BLOG.Models.csproj"
+            "C:\\Users\\CH\\Desktop\\Blog\\Blog.DAL\\BLOG.DAL.csproj": {
+              "projectPath": "C:\\Users\\CH\\Desktop\\Blog\\Blog.DAL\\BLOG.DAL.csproj"
             },
-            "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj": {
-              "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.DAL\\BLOG.DAL.csproj"
+            "C:\\Users\\CH\\Desktop\\Blog\\BLOG.Models\\BLOG.Models.csproj": {
+              "projectPath": "C:\\Users\\CH\\Desktop\\Blog\\BLOG.Models\\BLOG.Models.csproj"
             }
           }
         }
@@ -5402,7 +5399,7 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           }
         },

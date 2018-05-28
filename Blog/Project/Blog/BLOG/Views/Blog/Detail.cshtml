@@ -12,6 +12,7 @@
         color: #38485A;
         text-align: center
     }
+
     .blog_author {
         width: 100%;
         color: #999999;
@@ -23,6 +24,18 @@
         font-size: 14px;
         color: #38485A;
     }
+
+    .blog_message {
+        text-align: left;
+        color: #38485A;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+
+    .message_a {
+        float: right;
+        cursor:pointer;
+    }
 </style>
 <h3 style="text-align:left;font-size:15px" id="names"></h3>
 <hr />
@@ -30,5 +43,16 @@
 <p class="blog_author" id="infos"></p>
 <br />
 <div id="contents" class="blog_content">
-
+</div>
+<br />
+<div class="blog_message">
+    评论
+    <hr />
+    <div id="message">
+    
+    </div>
+    <div id="input" style="display:block;margin-top:30px">
+        <textarea id="txt" style="height:150px;width:400px"></textarea>
+        <input id="submit" type="button" value="提交" />
+    </div>
 </div>

@@ -3565,33 +3565,30 @@
     ]
   },
   "packageFolders": {
-    "I:\\Users\\97586\\.nuget\\packages\\": {},
-    "I:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\CH\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj",
+      "projectUniqueName": "C:\\Users\\CH\\Desktop\\Blog\\Blog.Common\\BLOG.Common.csproj",
       "projectName": "BLOG.Common",
-      "projectPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.Common\\BLOG.Common.csproj",
-      "packagesPath": "I:\\Users\\97586\\.nuget\\packages\\",
-      "outputPath": "I:\\Users\\97586\\Desktop\\Blog-master\\Blog-master\\Blog\\Project\\Blog\\Blog.Common\\obj\\",
+      "projectPath": "C:\\Users\\CH\\Desktop\\Blog\\Blog.Common\\BLOG.Common.csproj",
+      "packagesPath": "C:\\Users\\CH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CH\\Desktop\\Blog\\Blog.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "I:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "I:\\Users\\97586\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "I:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\CH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "I:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3611,12 +3608,12 @@
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "10.0.3"
+            "version": "[10.0.3, )"
           }
         },
         "imports": [

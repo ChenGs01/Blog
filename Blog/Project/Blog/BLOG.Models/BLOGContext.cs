@@ -14,6 +14,7 @@ namespace BLOG.Models
         public virtual DbSet<Admin> Admin { get; set; }
         public virtual DbSet<Articles> Articles { get; set; }
         public virtual DbSet<Categorys> Categorys { get; set; }
+        public virtual DbSet<Message> Message { get; set; }
         public virtual DbSet<Users> Users { get; set; }
 
 //        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -40,6 +41,15 @@ namespace BLOG.Models
                     .IsRequired()
                     .HasColumnName("PASSWORD")
                     .HasMaxLength(50);
+            });
+
+            modelBuilder.Entity<Message>(entity =>
+            {
+                entity.Property(e => e.Id).HasColumnName("ID");
+
+                entity.Property(e => e.ArticleId).HasColumnName("ArticleID");
+
+                entity.Property(e => e.Time).HasMaxLength(50);
             });
 
             modelBuilder.Entity<Articles>(entity =>

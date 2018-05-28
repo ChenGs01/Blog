@@ -8,7 +8,7 @@ namespace BLOG.DAL
 {
     public class BaseDAL<T> : IBaseDAL<T> where T : class
     {
-        private readonly BLOGContext blogDb;
+        public readonly BLOGContext blogDb;
         //注入
         public BaseDAL(BLOGContext _blogDb)
         {

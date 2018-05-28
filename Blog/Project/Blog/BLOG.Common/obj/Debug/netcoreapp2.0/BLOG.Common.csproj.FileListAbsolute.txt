@@ -23,3 +23,11 @@ I:\Users\97586\Desktop\Blog\Project\Blog\Blog.Common\obj\Debug\netcoreapp2.0\BLO
 I:\Users\97586\Desktop\Blog\Project\Blog\Blog.Common\obj\Debug\netcoreapp2.0\BLOG.Common.AssemblyInfo.cs
 I:\Users\97586\Desktop\Blog\Project\Blog\Blog.Common\obj\Debug\netcoreapp2.0\BLOG.Common.dll
 I:\Users\97586\Desktop\Blog\Project\Blog\Blog.Common\obj\Debug\netcoreapp2.0\BLOG.Common.pdb
+C:\Users\CH\Desktop\Blog\Blog.Common\bin\Debug\netcoreapp2.0\BLOG.Common.deps.json
+C:\Users\CH\Desktop\Blog\Blog.Common\bin\Debug\netcoreapp2.0\BLOG.Common.dll
+C:\Users\CH\Desktop\Blog\Blog.Common\bin\Debug\netcoreapp2.0\BLOG.Common.pdb
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Debug\netcoreapp2.0\BLOG.Common.csproj.CoreCompileInputs.cache
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Debug\netcoreapp2.0\BLOG.Common.AssemblyInfoInputs.cache
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Debug\netcoreapp2.0\BLOG.Common.AssemblyInfo.cs
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Debug\netcoreapp2.0\BLOG.Common.dll
+C:\Users\CH\Desktop\Blog\Blog.Common\obj\Debug\netcoreapp2.0\BLOG.Common.pdb
